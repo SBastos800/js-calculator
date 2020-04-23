@@ -11,6 +11,9 @@ let operator;
 
 reset.addEventListener('click', () => {
     answer.innerHTML = "";
+    firstNumber = 0;
+    secondNumber = 0;
+    operator = 0;
 });
 
 numberButtons.forEach((button) => {

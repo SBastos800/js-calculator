@@ -10,7 +10,7 @@ body {
     width: 100vw;
     justify-content: center;
     align-items: center;
-
+ 
     .mainWrapper {
             display: grid;
             grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -28,6 +28,7 @@ body {
             background-color: lightblue;
             padding: 20px;
             border-radius: 10px;
+            outline: none;
         }
 
         #screen {
