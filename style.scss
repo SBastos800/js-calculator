@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+
+    .mainWrapper {
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-areas:
+            "screen screen screen screen"
+            "addition subtraction multiply division"
+            "seven eight nine equal"
+            "four five six equal"
+            "one two three equal"
+            "zero dot reset equal";
+            grid-gap: 20px;
+            width: 450px;
+            height: 500px;
+            background-color: lightblue;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        #screen {
+            grid-area: screen;
+            border: 1px solid whitesmoke;
+            color: whitesmoke;
+            background-color: black;
+            padding: 10px;    
+        }
+
+        #reset {
+            grid-area: reset;
+            background-color: whitesmoke;
+        }
+        
+        #addition {
+            grid-area: addition;
+            background-color: #a8a6a6;
+        }
+
+        #subtraction {
+            grid-area: subtraction;
+            background-color:#a8a6a6;
+        }
+         
+        #multiply {
+            grid-area: multiply;
+            background-color: #a8a6a6;
+        }
+
+        #division {
+            grid-area: division;
+            background-color: #a8a6a6;
+        }
+
+        #seven {
+            grid-area: seven;
+            background-color:  whitesmoke;
+        }
+
+        #eight {
+            grid-area: eight;
+            background-color:  whitesmoke;
+        }
+
+        #nine {
+            grid-area: nine;
+            background-color:  whitesmoke;
+        }
+
+        #four {
+            grid-area: four;
+            background-color:  whitesmoke;
+        }
+
+        #five {
+            grid-area: five;
+            background-color:  whitesmoke;
+        }
+
+        #six {
+            grid-area: six;
+            background-color:  whitesmoke;
+        }
+
+        #one {
+            grid-area: one;
+            background-color:  whitesmoke;
+        }
+
+        #two {
+            grid-area: two;
+            background-color:  whitesmoke;
+        }
+
+        #three {
+            grid-area: three;
+            background-color:  whitesmoke;
+        }
+    
+        #zero {
+            grid-area: zero;
+            background-color:  whitesmoke;
+        }
+
+        #dot {
+            grid-area: dot;
+            background-color:  whitesmoke;
+        }
+        
+        #equal {
+            grid-area: equal;
+            background-color: #e69704;
+        }
+ }
+            
+
+            
+

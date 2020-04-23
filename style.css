@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .mainWrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-areas: "screen screen screen screen" "addition subtraction multiply division" "seven eight nine equal" "four five six equal" "one two three equal" "zero dot reset equal";
+  grid-gap: 20px;
+  width: 450px;
+  height: 500px;
+  background-color: lightblue;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+body #screen {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: screen;
+  border: 1px solid whitesmoke;
+  color: whitesmoke;
+  background-color: black;
+  padding: 10px;
+}
+
+body #reset {
+  -ms-grid-row: 6;
+  -ms-grid-column: 3;
+  grid-area: reset;
+  background-color: whitesmoke;
+}
+
+body #addition {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: addition;
+  background-color: #a8a6a6;
+}
+
+body #subtraction {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: subtraction;
+  background-color: #a8a6a6;
+}
+
+body #multiply {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: multiply;
+  background-color: #a8a6a6;
+}
+
+body #division {
+  -ms-grid-row: 2;
+  -ms-grid-column: 4;
+  grid-area: division;
+  background-color: #a8a6a6;
+}
+
+body #seven {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: seven;
+  background-color: whitesmoke;
+}
+
+body #eight {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: eight;
+  background-color: whitesmoke;
+}
+
+body #nine {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: nine;
+  background-color: whitesmoke;
+}
+
+body #four {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: four;
+  background-color: whitesmoke;
+}
+
+body #five {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  grid-area: five;
+  background-color: whitesmoke;
+}
+
+body #six {
+  -ms-grid-row: 4;
+  -ms-grid-column: 3;
+  grid-area: six;
+  background-color: whitesmoke;
+}
+
+body #one {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  grid-area: one;
+  background-color: whitesmoke;
+}
+
+body #two {
+  -ms-grid-row: 5;
+  -ms-grid-column: 2;
+  grid-area: two;
+  background-color: whitesmoke;
+}
+
+body #three {
+  -ms-grid-row: 5;
+  -ms-grid-column: 3;
+  grid-area: three;
+  background-color: whitesmoke;
+}
+
+body #zero {
+  -ms-grid-row: 6;
+  -ms-grid-column: 1;
+  grid-area: zero;
+  background-color: whitesmoke;
+}
+
+body #dot {
+  -ms-grid-row: 6;
+  -ms-grid-column: 2;
+  grid-area: dot;
+  background-color: whitesmoke;
+}
+
+body #equal {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 4;
+  -ms-grid-column: 4;
+  grid-area: equal;
+  background-color: #e69704;
+}
+/*# sourceMappingURL=style.css.map */

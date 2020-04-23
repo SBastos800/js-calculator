@@ -1,0 +1,11 @@
+{
+  "name": "js-calculator-github",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/SBastos800/js-calculator-github.git",
+  "author": "SBastos800 <soniavsbastos@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.26.3"
+  }
+}
